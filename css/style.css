@@ -4,6 +4,7 @@
     align-items: center;	
 
 }
+
 .nav-item{
 	display: flex;
 	justify-content: space-between;
@@ -15,19 +16,54 @@
 }
 .bg-image {
     width: 100%;
-    height: 100%;
-    background-image: url('../image/bgimage.jpg');
+    height: 500px;
+    background-image: url('../image/bgimage9.jpg');
     background-size: cover;
+    background-position: center center;
 }
+.explore-box{
+    width: 50px;
+	height: 30px;
+    margin-bottom: 15px;
+	align-items: center;
+	display: flex;
+	border-radius:30px 40px;
+	justify-content: space-around;
+}
+.explore-item{
+    width: 1900px;
+    height: 500px;
+    
+}
+.explore-conteiner{
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.expl-title{
+    font-size: 40px;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.expl-description{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Zeyada', cursive;
+}
+
+
+
+
+
 
 /* page 1 section 2 */
 
 .home-block{
     max-width: 1920px;
     width: 100%;
-    /* margin-left: 10px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
     
@@ -39,7 +75,7 @@
     justify-content: center;
     flex-direction: column;
 	align-items: center;
-    background-color: aqua;
+  /* background-color: aliceblue; */
 }
 .block-h{
     margin-top: 11px;
@@ -87,7 +123,7 @@
 .places-box{
     width: 400px;
     height: 450px;
-    background-color: azure;
+    background-color: whitesmoke;
     
 }
 .image-size{
@@ -159,4 +195,36 @@
 .places-box:nth-child(5){
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/* footer */
+.footer-conteiner{
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   background-color: rgb(43, 43, 226);
+}
+.footer-ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+/* contact page */
+.bg-image2 {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../image/bgimage8.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.contact-conteiner{
+    width: 90px;
+    height: 200px;
+    align-items: center;
+}
+.right-contact{
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -1,0 +1,162 @@
+.header-block{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;	
+
+}
+.nav-item{
+	display: flex;
+	justify-content: space-between;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.li-item{
+	margin-right: 15px;
+}
+.bg-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/bgimage.jpg');
+    background-size: cover;
+}
+
+/* page 1 section 2 */
+
+.home-block{
+    max-width: 1920px;
+    width: 100%;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.box-block{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+	align-items: center;
+    background-color: aqua;
+}
+.block-h{
+    margin-top: 11px;
+    margin-bottom: 19px;
+    font-size: 13px;
+    font-family: 'Shantell Sans', cursive;
+}
+.block-p{
+    font-family: 'Zeyada', cursive;
+    
+
+}
+
+/* places page */
+
+.places-block{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+ 
+
+}
+
+
+.nav-item2{
+    width: 900px;
+    display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'Shantell Sans', cursive;
+
+   
+}
+.block-h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.places-box{
+    width: 400px;
+    height: 450px;
+    background-color: azure;
+    
+}
+.image-size{
+    width: 400px;  
+}
+.country-name{
+    font-size: 20px;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.description{
+    margin-top: 11px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Zeyada', cursive;
+}
+.plane-icone{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icone-conteiner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-icone-item{
+    display: flex;
+    justify-content: flex-start;
+}
+.icones{
+    width: 30px;
+	height: 30px;
+    margin-bottom: 15px;
+	align-items: center;
+	background-color: rgb(98, 195, 219);
+	display: flex;
+	border-radius:38px;
+	justify-content: space-around;
+}
+.price{
+    font-size: 20px;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.title{
+    font-size: 10px;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.places-box:nth-child(1){
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+.places-box:nth-child(2){
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.places-box:nth-child(3){
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
+
+.places-box:nth-child(5){
+    margin-left: 20px;
+    margin-right: 20px;
+}

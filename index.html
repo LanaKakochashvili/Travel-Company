@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css ">
+    <meta name="description" content="travel company">
+    <meta name="keywords" content="travel, explore, Dream">
+    <meta name="author" content="Travelo">
+    <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+<meta property="og:type"               content="turism" />
+<meta property="og:title"              content="Happiness is traveling." />
+<meta property="og:description"        content="The world is too big to leave unexplored." />
+<meta property="og:image"              content="http://media.cntraveler.com/photos/58acb3f1a5afa42363c01c4d/master/pass/Lindquist-Beach-st-thomas-GettyImages-183056331.jpg" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css "/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,29 +23,37 @@
       href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Travel company</title>
   </head>
   <body>
     
     <header class="header-block">
       <a href="index.html">
-        <img class="logo-image" src="image/globe.png" alt="" />
+        <img class="logo-image" src="image/globe.png" alt="globe-icone" />
         <img class="logo-image" src="image/travel.png" alt="logo-icon" />
       </a>
-      <nav>
+      <div>
+      <nav class="index-nav" id="navBar">
         <ul class="nav-item">
-          <li><a class="li-item" href="index.html">HOME</a></li>
-          <li><a class="li-item" href="">ABOUT</a></li>
-          <li><a class="li-item" href="places.html">PLACES</a></li>
-          <li><a class="li-item" href="contact.html">CONTACT</a></li>
+          <li class="libar"><a class="li-item" href="index.html">HOME</a></li>
+          <li class="libar"><a class="li-item" href="">ABOUT</a></li>
+          <li class="libar"><a class="li-item" href="places.html">PLACES</a></li>
+          <li class="libar"><a class="li-item" href="contact.html">
+            
+CONTACT</a></li>
         </ul>
       </nav>
+      <div class="burger-bar" id="burgerBar">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      </div>
     </header>
     <section>
-      <div class="bg-image">
-      <div class="explore-conteiner">
+       <div class="bg-image"> 
+      <div class="explore-conteiner explore"> 
       <div class="explore-item">
         <p class="expl-description">Life is an adventure.</p>
       <h1 class="expl-title">Dream. Explore. Discover. </h1>
@@ -45,17 +61,11 @@
     </div>
   </div>
     </section>
-    
-  
-  </div>
-
-    <!-- page 1 section 2 -->
-
     <section>
       <div class="home-block">
         <div class="box-block">
           <img src="image/image1.svg" alt="price-icone">
-          <!-- <i class="fa-solid fa-money-check-dollar"></i> -->
+         
           <h6 class="block-h">Get Best Prices</h6>
           <p class="block-p">
             Pay through our application and save thousands and get amazing
@@ -64,7 +74,7 @@
         </div>
         <div class="box-block">
           <img src="image/image2.svg" alt="covid-icone">
-          <!-- <i class="fa-solid fa-shield-virus"></i> -->
+        
           <h6 class="block-h">Covid Safe</h6>
           <p class="block-p">
             We have all the curated hotels that have all the precaution for a
@@ -73,7 +83,7 @@
         </div>
         <div class="box-block">
           <img src="image/image3.svg" alt="card-icone">
-          <!-- <i class="fa-regular fa-credit-card"></i> -->
+       
           <h6 class="block-h">Flexible Payment</h6>
           <p class="block-p">
             Enjoy the flexible payment through our app and get rewards on every
@@ -82,13 +92,15 @@
         </div>
         <div class="box-block">
           <img src="image/image4.svg" alt="location-icone">
-          <!-- <i class="fa-solid fa-street-view"></i> -->
+        
           <h6 class="block-h">Find The Best Near You</h6>
           <p class="block-p">
             Find the best hotels and places to visit near you in a single click
           </p>
         </div>
       </div>
+    </div>
+    
     </section>
     <footer>
       <div class="footer-conteiner">
@@ -119,5 +131,6 @@
 
 </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

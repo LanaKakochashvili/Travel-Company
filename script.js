@@ -1,4 +1,6 @@
-let navigationElement = document.getElementById ("navBar");
-let burgerElement = document.getElementById ("burgerBar"):
+let navigationElement = document.getElementById("navBar");
+ let burgerElement = document.getElementById("burgerBar");
 
-burgerElement.addEventListener("click", function (){navigationElement.classList.toggle("activeNav");});
+ burgerElement.addEventListener("click", function(){
+    navigationElement.classList.toggle("activeNav");
+ });

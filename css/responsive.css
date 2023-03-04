@@ -1,11 +1,12 @@
-@media (max-width:768px){
+@media (max-width: 768px) {
     .index-nav{
         display: none;
     }
-}
-.burger-bar{
+    .burger-bar{
     display: block;
-    color: aqua;
+}
+.index-nav.activeNav {
+    display: block;
 }
 .header-block{
     flex-direction: column;
@@ -14,6 +15,84 @@
     flex-direction: column;
     align-items: center;
 }
-.navigation.activeNav{
-    display: block;
 }
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .home-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .footer-conteiner{
+        flex-wrap: wrap;
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .footer-ul{
+        height: auto;
+
+     
+    }
+}
+
+/* footer responcive */
+@media (min-width: 320px) and (max-width: 1024px){
+    .right-footer-icone{
+        flex-wrap: wrap;
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .bg-image{
+        height: auto;
+    }
+} 
+
+
+/* contact responsive */
+@media (min-width: 320px) and (max-width: 1024px){
+    .contact-conteiner{
+       height: auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .left-contact{
+        width: 50%;
+        margin-right: 15px;
+        
+    }
+}
+
+/* places responsive */
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .places-block{
+        height: auto; 
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .contact-element-box{
+        height: auto; 
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 1024px){
+    .left-contact{
+        height: auto; 
+    
+}
+}
+
+
+
+

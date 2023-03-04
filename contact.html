@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css "
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,22 +20,27 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>contact page</title>
   </head>
   <body>
     <header class="header-block">
       <a href="index.html">
-        <img class="logo-image" src="image/globe.png" alt="" />
+        <img class="logo-image" src="image/globe.png" alt="globe-icone" />
         <img class="logo-image" src="image/travel.png" alt="logo-icon" />
       </a>
-      <nav>
-        <ul class="nav-item">
-          <li><a class="li-item" href="index.html">HOME</a></li>
-          <li><a class="li-item" href="">ABOUT</a></li>
-          <li><a class="li-item" href="places.html">PLACES</a></li>
-          <li><a class="li-item" href="contact.html">CONTACT</a></li>
-        </ul>
-      </nav>
+      <div>
+        <nav class="index-nav" id="navBar">
+          <ul class="nav-item">
+            <li><a class="li-item" href="index.html">HOME</a></li>
+            <li><a class="li-item" href="places.html">PLACES</a></li>
+            <li><a class="li-item" href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="burger-bar" id="burgerBar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
     </header>
     <section>
       <div class="bg-image2">
@@ -60,7 +65,7 @@
               </li>
               <li>
                 <p class="contact-call">Call Us:</p>
-                <a href="callto:+995 32 902 209">+995 32 902 209</a>
+                <a href="callto:+99532902209">+995 32 902 209</a>
               </li>
             </ul>
             <div class="contact-element-box">
@@ -83,7 +88,7 @@
           </div>
 
           <div class="right-contact">
-            <form class="form-box" action="">
+            <form class="form-box">
               <div class="input-element">
                 <input
                   class="input-text"
@@ -113,7 +118,9 @@
                 ></textarea>
               </div>
               <div>
-                <button class="bt-submit" type="submit">Contact Us</button>
+                <button id="contactUs" class="bt-submit" type="submit">
+                  Contact Us
+                </button>
               </div>
             </form>
           </div>
@@ -128,13 +135,11 @@
         <div class="left-footer">
           <ul class="footer-ul">
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
             <li><a href="#">PLACES</a></li>
             <li><a href="#">CONTACT</a></li>
           </ul>
         </div>
         <div></div>
-
         <div class="right-footer-icone">
           <i class="fa-brands fa-square-facebook"></i>
           <i class="fa-brands fa-square-instagram"></i>
@@ -143,5 +148,6 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <script src="script1.js"></script>
   </body>
 </html>
